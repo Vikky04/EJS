@@ -20,3 +20,15 @@ In views->ejs file:
  <h1>1+2</h1>
 <h1><%= 1+2 %></h1> // <%= ---- %> syntex to print output for more (ejs.co -> tages)
 ![image](https://github.com/user-attachments/assets/1162f6bc-257d-4e22-a4cc-27f2f452c9f5)
+
+#conditional statements in EJS
+<% --this is syntax use to check conditions-- %>
+adding condsitions inside EJS :
+<% if(dice==6){%>
+<h1>roll again</h1>
+<% } %>
+
+#loops in EJS 
+<% for(users of follows){ %>
+<li> <%= users %> </li>
+<% } %>
